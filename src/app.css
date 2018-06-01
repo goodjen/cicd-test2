@@ -12,9 +12,14 @@
   justify-content: center;
 }
 
-.app-logo {
-  height: 10vmin;
-  width: 10vmin;
+.app-logo{
+
+  float: left;
+  width: 5vmin;
+  border: 2px solid white;
+  margin: 2vmin;/*height: 5vmin;
+  width: 5vmin;
+  margin: 2vmin;*/
 }
 
 .button-colors-primary {
@@ -34,7 +39,7 @@
 }
 
 .button-placement{
-  margin: 30px;
+  margin: 10vmin;
 }
 
 .col {
@@ -54,15 +59,19 @@
 .fullscreen {
   height: 100vh;
   width: 100vw;
+  background-color: #eeeeee;
 }
 
 .header {
+  margin: 1.25vw;
+  bottom-margin: .5vw;
   align-items: center;
-  background-color: #f0f0f0;
+  background-color: #444444;
+  color: #ffffff;
   display: flex;
   flex-direction: row;
-  height: 10vh;
-  width: 100vw;
+  height: 70px;
+  width: 97.5vw;
 }
 /*
 .movie-list {
@@ -85,9 +94,11 @@
   display: flex;
   flex-direction: column;
   width: 100vw;
+  background-color: #eeeeee;
 }
 
 .page-content {
+  padding: 2vmin;
   flex: 1;
 }
 
@@ -102,22 +113,46 @@
   display: flex;
   flex-direction: row;
 }
-
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 body {
+  font-family: 'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif!important;
   margin: 0;
   padding: 0;
+  background-color: #eeeeee;
 }
 
 h1 {
   margin: 10px;
-  padding:20px;
-  font-family: Futura;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 45px;
+  letter-spacing: -0.01em;
+  line-height: normal;
+}
+h4{
+  font-family: 'Open Sans';
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: -0.01em;
+  line-height: normal;
+}
+
+.box{
+  background-color: #ffffff;
+  margin: 3vmin;
+  top-margin: 0;
+  box-shadow: 0px 2px 2px darkgray !important;
 }
 
 h2{
   margin: 0;
   padding: 30px;
-  font-family: Futura;
+  font-family: 'Open Sans';
+  color: #444444;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 button {
