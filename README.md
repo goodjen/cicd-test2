@@ -37,6 +37,8 @@ run the page on a local terminal
 npm start
 ```
 
+It will be running at localhost:3000
+
 might need to install redux
 
 ```
