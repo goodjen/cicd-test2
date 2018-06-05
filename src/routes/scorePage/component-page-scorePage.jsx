@@ -37,7 +37,6 @@ class ScorePage extends Component {
                         </table>
                     </div>
                 </div>
-                <PageAddToolbar/>
             </div>
         );
     }

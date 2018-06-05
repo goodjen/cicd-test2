@@ -9,7 +9,6 @@ const PageHome = () => (
         Could include a search function to look at the services they are in charge of</h2>
       <ScoreButton />
     </div>
-    <Toolbar showBack={false} />
   </div>
 );
 
