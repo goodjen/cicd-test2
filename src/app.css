@@ -113,6 +113,17 @@
   display: flex;
   flex-direction: row;
 }
+hr {
+  display: block;
+  height: 1.5px;
+  border: 0;
+  background-color: #ccc;
+  margin: 4px 4px 2em;
+  border-left: 10em solid #E86B2D;
+
+}
+
+
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 body {
   font-family: 'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif!important;
@@ -129,6 +140,11 @@ h1 {
   letter-spacing: -0.01em;
   line-height: normal;
 }
+h2{
+  margin:0;
+  padding:0;
+}
+
 h4{
   font-family: 'Open Sans';
   color: #ffffff;
@@ -140,9 +156,29 @@ h4{
 
 .box{
   background-color: #ffffff;
-  margin: 3vmin;
+  margin: 2vmin 15vmin;
   top-margin: 0;
   box-shadow: 0px 2px 2px darkgray !important;
+}
+
+table, th, td{
+  border: 1px solid #dddddd;
+  margin: 20px;
+  margin-top: 30px;
+  color: #444444;
+
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  height: 30px;
+  border-bottom: 3px solid #dddddd;
+}
+td{
+  padding:3px;
 }
 
 h2{
