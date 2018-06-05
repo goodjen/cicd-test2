@@ -4,7 +4,7 @@ import Toolbar from '../../components/component-toolbar';
 
 const PageHome = () => (
   <div className="page">
-    <div className="page-content column align-center">
+    <div className="page-content column align-center box">
         <h2>Find out how your services have been performing!</h2>
       <ScoreButton />
     </div>
