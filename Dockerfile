@@ -1,4 +1,8 @@
 FROM node:8
+
+RUN npm install -g serve
+CMD serve -s build
+
 EXPOSE 3000
 
 # Create app directory
@@ -10,4 +14,4 @@ ADD ./ ./
 RUN npm install --silent
 
 # start app
-CMD ["npm", "start"]
+RUN npm run build --production
