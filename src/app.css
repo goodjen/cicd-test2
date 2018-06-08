@@ -1,8 +1,3 @@
-/*@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}*/
-
 .align-center {
   align-items: center;
   justify-content: center;
@@ -72,22 +67,6 @@
   height: 70px;
   width: 97.5vw;
 }
-/*
-.movie-list {
-  border: 1px solid #c0c0c0;
-  height: 50vh;
-  overflow: auto;
-  width: 60vw;
-}
-*/
-/*
-.movie-list-row {
-  display: flex;
-  flex-direction: row;
-  fontSize: 3vmin;
-  height: 4vmin;
-  padding: 1vmin;
-}*/
 
 .page {
   display: flex;
@@ -203,11 +182,4 @@ button {
   padding: 2vmin;
   width: 15vw;
 }
-/*
-input {
-  border-radius: 5px;
-  font-size: 3vmin;
-  height: 4vmin;
-  padding: 1vmin;
-}
-*/
+
