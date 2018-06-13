@@ -7,8 +7,8 @@ export function fetchApps() {
             .then(handleErrors)
             .then(res => res.json())
             .then(json => {
-                dispatch(fetchAppsSuccess(json.apps));
-                return json.apps;
+                dispatch(fetchAppsSuccess(json));
+                return json;
             })
             .catch(error => dispatch(fetchAppsError(error)));
     };

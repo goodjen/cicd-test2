@@ -24,6 +24,7 @@ export default function appReducer(state = initialState, action) {
         case FETCH_APPS_SUCCESS:
             // All done: set loading "false".
             // Also, replace the items with the ones from the server
+            console.log(action.payload)
             return {
                 ...state,
                 loading: false,

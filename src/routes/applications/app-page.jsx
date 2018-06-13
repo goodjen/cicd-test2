@@ -1,10 +1,11 @@
-import Applist from './components/appList'
+import AppList from './components/AppList'
 import React from 'react';
 
 const appPage = () => (
     <div className="page">
         <div className="page-content column align-center box">
-        <Applist />
+            <h2 >Evaluation<hr /></h2>
+            <AppList />
         </div>
     </div>
 );
