@@ -6,6 +6,7 @@ import PageHome from './routes/home/component-page-home';
 import ScorePage from './routes/scorePage/component-page-scorePage';
 import healthPage from './routes/health/health-page';
 import appPage from './routes/applications/app-page';
+import sresPage from './routes/sres/sres-page';
 import './app.css';
 
 const App = () => (
@@ -18,6 +19,7 @@ const App = () => (
             <Route exact path="/score" component={ScorePage}/>
             <Route exact path="/health" component={healthPage}/>
             <Route exact path="/applications" component={appPage}/>
+            <Route exact path="/sres" component={sresPage}/>
         </div>
       </div>
     </Router>
