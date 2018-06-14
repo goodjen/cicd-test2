@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "axios": "^0.17.1",
+    "fetch-mock": "^6.4.4",
     "history": "^4.7.2",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
@@ -24,6 +25,7 @@
     "enzyme": "^3.2.0",
     "enzyme-adapter-react-16": "^1.1.0",
     "eslint-config-airbnb": "^16.1.0",
+    "redux-mock-store": "^1.5.1",
     "ux-styleguide": "^2.16.2"
   }
 }
