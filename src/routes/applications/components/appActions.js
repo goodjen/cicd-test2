@@ -10,7 +10,7 @@ export function fetchApps() {
                 dispatch(fetchAppsSuccess(json));
                 return json;
             })
-            .catch(error => dispatch(fetchAppsError(error)));
+            .catch(error => dispatch(fetchAppsError(error.message)));
     };
 }
 
