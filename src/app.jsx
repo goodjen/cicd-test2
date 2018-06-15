@@ -13,7 +13,7 @@ const App = () => (
   <div>
     <Router history={history}>
       <div className="fullscreen">
-          <Header />
+              <Header />
         <div className="route">
             <Route exact path="/" component={PageHome} />
             <Route exact path="/score" component={ScorePage}/>

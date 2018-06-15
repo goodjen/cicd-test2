@@ -56,8 +56,7 @@
   width: 100vw;
   background-color: #eeeeee;
 }
-
-.header {
+.topnav {
   margin: 10px 10px .5vw;
   align-items: center;
   background-color: #444444;
@@ -66,6 +65,22 @@
   flex-direction: row;
   height: 70px;
   width: 97.5vw;
+}
+
+.topnav a{
+  float: right;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+.topnav a:hover{
+  background-color: #444444;
+  color: #7f7f7f;
+}
+.topnav a:active{
+  background-color:#444444;
+  color: #E86B2D;
 }
 
 .page {
