@@ -1,9 +1,9 @@
-import API_ROOT from '../../../api-config';
+import apiConfig from '../../../api-config';
 
 export function fetchApps() {
     return dispatch => {
         dispatch(fetchAppsBegin());
-        return fetch(`${API_ROOT}/applications`)
+        return fetch(`${apiConfig}/applications`)
             .then(handleErrors)
             .then(res => res.json())
             .then(json => {
