@@ -3,7 +3,7 @@ import apiConfig from '../../../api-config';
 export function fetchApps() {
     return dispatch => {
         dispatch(fetchAppsBegin());
-        return fetch(`${apiConfig}/applications`)
+        return fetch(`${apiConfig()}/applications`)
             .then(handleErrors)
             .then(res => res.json())
             .then(json => {
