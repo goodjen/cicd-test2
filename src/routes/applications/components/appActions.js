@@ -1,4 +1,4 @@
-import { API_ROOT } from '../../../api-config';
+import API_ROOT from '../../../api-config';
 
 export function fetchApps() {
     return dispatch => {
