@@ -7,8 +7,8 @@ image_resource:
     tag: latest
 
 inputs:
-  - name: cicd-tests
+  - name: cicd-test2
   - name: dependency-cache
 
 run:
-  path: cicd-tests/ci/scripts/run_tests.sh
+  path: cicd-test2/ci/scripts/run_tests.sh
