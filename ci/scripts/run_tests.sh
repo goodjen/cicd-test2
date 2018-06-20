@@ -2,5 +2,5 @@
 
 set -e -u -x
 
-mv dependency-cache/node_modules REvaluation-UI
-cd REvaluation-UI && npm test
+mv dependency-cache/node_modules cicd-tests
+cd cicd-tests && npm test

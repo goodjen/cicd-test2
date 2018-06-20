@@ -7,8 +7,8 @@ image_resource:
     tag: latest
 
 inputs:
-  - name: REvaluation-UI
+  - name: cicd-tests
   - name: dependency-cache
 
 run:
-  path: REvaluation-UI/ci/scripts/run_tests.sh
+  path: cicd-tests/ci/scripts/run_tests.sh
