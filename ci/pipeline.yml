@@ -2,13 +2,13 @@ resource_types:
   - name: npm-cache
     type: docker-image
     source:
-      repository: REvaluation-UI/npm-cache-resource
+      repository: cicd-tests/npm-cache-resource
       tag: latest
 resources:
-  - name: REvaluation-UI
+  - name: cicd-tests
     type: git
     source: &repo-source
-      uri: https://github.homedepot.com/checkout-intern/REvaluation-UI
+      uri: https://github.homedepot.com/checkout-intern/cicd-tests
       branch: master
   - name: dependency-cache
     type: npm-cache
@@ -19,16 +19,16 @@ resources:
 jobs:
   - name: Install dependencies
     plan:
-      - get: REvaluation-UI
+      - get: cicd-tests
         trigger: true
       - get: dependency-cache
   - name: Run tests
     plan:
-      - get: REvaluation-UI
+      - get: cicd-tests
         trigger: true
         passed: [Install dependencies]
       - get: dependency-cache
         passed: [Install dependencies]
       - task: run the test suite
-        file: REvaluation-UI/ci/tasks/run_tests.yml
+        file: cicd-tests/ci/tasks/run_tests.yml
 
