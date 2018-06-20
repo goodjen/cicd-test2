@@ -1,6 +1,5 @@
 import React from 'react';
 import ScoreButton from './components/component-button-scores';
-import Toolbar from '../../components/component-toolbar';
 
 const PageHome = () => (
     <div className="page">

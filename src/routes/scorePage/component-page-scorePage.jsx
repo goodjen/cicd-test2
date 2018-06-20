@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PageAddToolbar from './components/component-page-add-toolbar';
 
 class ScorePage extends Component {
     render() {
