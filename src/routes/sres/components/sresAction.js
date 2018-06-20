@@ -1,9 +1,9 @@
-import { API_ROOT } from '../../../api-config';
+import apiConfig from '../../../api-config';
 
 export function fetchSres(){
     return dispatch => {
         dispatch(fetchSresBegin());
-        return fetch(`${API_ROOT}/sres`)
+        return fetch(`${apiConfig()}/sres`)
             .then(handleErrors)
             .then(res => res.json())
             .then(json => {

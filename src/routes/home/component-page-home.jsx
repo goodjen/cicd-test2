@@ -6,7 +6,6 @@ const PageHome = () => (
         <h2>Find out how your services have been performing! <hr />
         </h2>
     </div>
-  </div>
 );
 
 export default PageHome;
